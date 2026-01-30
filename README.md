@@ -20,25 +20,22 @@ cd src/main/java
 javac com/selina/converter/NumberConverter.java
 java com.selina.converter.NumberConverter
 
-## **🔍 Key Technical Findings**
+```markdown
+## 🔍 Key Technical Findings
+1. **Bitwise operations** are most efficient for direct binary manipulation
+2. **String concatenation in recursion** causes significant performance overhead  
+3. **Java's built-in method** is highly optimized (native implementation)
+4. **All three custom methods** produce identical results to the standard library
 
-- Bitwise operations are most efficient for direct binary manipulation
-- String concatenation in recursion causes significant performance overhead
-- Java's built-in method is highly optimized (native implementation)
-- All three custom methods produce identical results to the standard library
+## 🎓 Learning Outcomes
+- **Algorithm design and analysis**
+- **Performance measurement techniques**  
+- **Recursion optimization strategies**
+- **Java bit manipulation operations**
+- **Software engineering best practices**
 
-## **🎓 Learning Outcomes**
+## 📝 Author
+**Selina** - Economics & Software Development Student
 
-- Algorithm design and analysis
-- Performance measurement techniques
-- Recursion optimization strategies
-- Java bit manipulation operations
-- Software engineering best practices
-
-## **📝 Author**
-
-Selina - Economics & Software Development
-
-## **📄 License**
-
+## 📄 License
 MIT License
