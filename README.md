@@ -12,15 +12,6 @@ A comprehensive Java project comparing three different algorithms for decimal-to
 - **Performance Analysis**: Detailed timing statistics with visual charts
 - **Cross-Validation**: All methods verified against Java's built-in `Integer.toBinaryString()`
 
-## 🛠️ Quick Start
-
-### Compile & Run (Batch Mode)
-```bash
-cd src/main/java
-javac com/selina/converter/NumberConverter.java
-java com.selina.converter.NumberConverter
-
-```markdown
 ## 🔍 Key Technical Findings
 1. **Bitwise operations** are most efficient for direct binary manipulation
 2. **String concatenation in recursion** causes significant performance overhead  
